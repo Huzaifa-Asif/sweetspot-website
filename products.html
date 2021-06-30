@@ -1,0 +1,331 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> -->
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="./style.css?v1.2">
+        <link rel="stylesheet" href="./color.css">        
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <title>Company Page</title>
+    </head>  
+    <style>
+        .circle {
+            border: 5px solid rgba(255, 255, 255, 0.75); 
+            background-color: #153745;           
+            border-radius: 100%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            transition: 0.3s;
+            color: white;
+            text-decoration: none;
+        }
+        .circle {
+            text-decoration: none !important;
+            color: white !important;
+        }        
+        .center-circle {
+            width: 220px !important;
+            height: 220px !important;
+            font-size: 1.75rem !important;
+            z-index: 10000;
+        }
+        .circle-sm {
+            width: 90px !important;
+            height: 90px !important;
+            font-size: 0.90rem !important;
+        }
+        .circle-md {
+            width: 100px !important;
+            height: 100px !important;
+            font-size: 0.90rem !important;
+        }
+        .circle-lg {
+            width: 120px !important;
+            height: 120px !important;
+            font-size: 0.90rem !important;
+        }
+
+        #circle1 { left: 348.719px; top: 216.969px; background-color: #DFF9FB; color: black !important; }
+        #circle2 { left: 358.25px; top: 128.476px; background-color: #21A1AD; }
+        #circle3 { left: 329.234px; top: 46.4688px; background-color: #F46B52; color: black !important; }
+        #circle4 { left: 254.234px; top: 23.4922px; background-color: #F5E58E; color: black !important; }
+        #circle5 { left: 146.234px; top: 16.4766px; background-color: #F46B52; color: black !important; }
+        #circle6 { left: 100.25px; top: 105.5px; background-color: #F5E58E; color: black !important; }
+        #circle7 { left: 91.7344px; top: 185.984px; background-color: #21A1AD; }
+        #circle8 { left: 150.734px; top: 244.992px; background-color: #DFF9FB; color: black !important; }
+        #circle9 { left: 254.242px; top: 251.484px; background-color: slategray; }
+
+        .circle-container:hover #circle1 { left: 419.766px; top: 283.008px; }
+        .circle-container:hover #circle2 { left: 423.75px; top: 166px; }
+        .circle-container:hover #circle3 { left: 390.734px; top: 55.9844px; }
+        .circle-container:hover #circle4 { left: 309.758px; top: 0.0078125px; }
+        .circle-container:hover #circle5 { left: 139.75px; top: -27.0078px; }
+        .circle-container:hover #circle6 { left: 46.7578px; top: 84px; }
+        .circle-container:hover #circle7 { left: 46.7578px; top: 219px; }
+        .circle-container:hover #circle8 { left: 147.75px; top: 307.992px; }
+        .circle-container:hover #circle9 { left: 291.75px; top: 325.976px; }
+      
+    </style>
+
+    <script>
+        $( function() {
+            $( "#circle1" ).draggable();
+            $( "#circle2" ).draggable();
+            $( "#circle3" ).draggable();
+            $( "#arrow1" ).draggable();
+            $( "#arrow2" ).draggable();
+            $( "#arrow3" ).draggable();
+        } );        
+    </script>
+
+
+<body>
+
+    <!-- MOBILE VIEW CODE -->
+    <section class="d-block d-lg-none">
+
+        <div id="mySidenav" class="sidenav bg-primary" style="z-index: 5000;">
+            <a href="javascript:void(0)" class="closebtn text-white" onclick="closeNav()">&times;</a>
+            <div class="accordion mt-4" id="accordionExample" style="box-shadow: none">
+                <div class="card bg-transparent border-0" style="box-shadow: none;">
+                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
+                      <h6 class="mb-0">
+                        <a href="/" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">Home</span>
+                        </a>
+                      </h6>
+                    </div>
+                </div>                  
+                <div class="card bg-transparent border-0" style="box-shadow: none;">
+                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
+                      <h6 class="mb-0">
+                        <a href="/aboutus.html" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">About Us</span>
+                        </a>
+                      </h6>
+                    </div>
+                </div>                  
+                <div class="card bg-transparent border-0" style="box-shadow: none;">
+                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingTwo" >
+                      <h6 class="mb-0">
+                        <button class="btn btn--primary-- text-left pl-4 w-100" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                          <span class="w-100 d-flex justify-content-between">
+                                <span class="text-sm text-white">Services</span>
+                                <span class="mdi mdi-chevron-right text-white"></span>
+                          </span>
+                        </button>
+                      </h6>
+                    </div>
+                    <div id="collapseTwo" class="collapse hide" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body text-sm font-weight-normal text-left bg-dark">
+                          <a href="/ar_vr_games.html" class="text-sm text-white font-weight-normal">AR/VR Games</a>
+                          <a href="/web_app_development.html" class="text-sm text-white font-weight-normal">Web App Development</a>
+                          <a href="/mobile_app_development.html" class="text-sm text-white font-weight-normal">Mobile App Development</a>
+                          <a href="/erp_and_business_solutions.html" class="text-sm text-white font-weight-normal">Erp & Business Solutions</a>
+                          <a href="/digital_marketing_solution.html" class="text-sm text-white font-weight-normal">Digital Marketing Solutions</a>
+                          <a href="/graphic_designing.html" class="text-sm text-white font-weight-normal">Graphic Designing</a>
+                      </div>
+                    </div>
+                </div>                
+                <div class="card bg-transparent border-0" style="box-shadow: none;">
+                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
+                      <h6 class="mb-0">
+                        <a href="/portfolio.html" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">Portfolio</span>
+                        </a>
+                      </h6>
+                    </div>
+                </div>                  
+                <div class="card bg-transparent border-0" style="box-shadow: none;">
+                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
+                      <h6 class="mb-0">
+                        <a href="/our_products.html" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">Our Products</span>
+                        </a>
+                      </h6>
+                    </div>
+                </div>                
+                <div class="card bg-transparent border-0" style="box-shadow: none;">
+                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
+                      <h6 class="mb-0">
+                        <a href="/careers.html" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">Careers</span>
+                        </a>
+                      </h6>
+                    </div>
+                </div>                
+                <div class="card bg-transparent border-0" style="box-shadow: none;">
+                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
+                      <h6 class="mb-0">
+                        <a href="/contactus.html" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">Contact us</span>
+                        </a>
+                      </h6>
+                    </div>
+                </div>  
+            </div>              
+        </div>     
+               
+        <header class="d-flex justify-content-between between py-2 px-2 bg-white align-items-center position-relative">
+            <a href="javascript:void(0)" onclick="openNav()" class="btn mdi mdi-menu mdi-24px text-primary"></a>
+            <a href="/"><img src="/assets/header_logo.svg" width="120px" alt=""></a>
+            <div>
+                <a href="#" onclick="showSmSearchField()" class="mdi mdi-magnify mdi-24px mr-2 text-primary"></a>
+                <!-- <a href="#" class="mdi mdi-download mx-2 text-white"></a> -->
+                <form action="/faq.html" id="search-field-sm" class="position-absolute mb-0 bg-primary h-100 d-none w-100" style="top: 0px; left: 0px;">
+                    <div class="input-group">
+                        <div class="input-group-prepend mr-3">
+                            <span onclick="hideSmSearchField()" class="input-group-text bg-transparent border-0 text-white mdi-24px  mdi mdi-chevron-left text-white"></span>
+                        </div>
+                        <input type="text" class="form-control px-0 border-radius-0 border-0 text-white" placeholder="What are you looking for..." >
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-transparent border-0 text-white mdi mdi-magnify mdi-24px text-white"></span>
+                        </div>
+                    </div>
+                </form>                     
+            </div>
+        </header>
+
+    </section>
+    <!-- MOBILE VIEW CODE -->
+
+
+    <!-- NAVIGATION -->
+    <nav aria-label="top-header" class="container-fluid py-4 shadow d-lg-block d-none my-0 bg-white position-fixed" style="top: 0px; z-index: 50000;">
+        <div class="container">
+            <div class="row mx-0 justify-content-between align-items-center">
+                <div arial-label="left">
+                    <h5><a href="/" class="text-dark font-weight-bold">SweetSpot Therapeutics <sup>TM</sup></a></h5>
+                </div>
+                <div arial-label="right">
+                    <a href="/" class="btn btn--hover--primary">Home</a>
+                    <a href="/comapny.html" class="btn btn--hover--primary">Company</a>
+                    <a href="/aboutus.html" class="btn btn--hover--primary">How it Works</a>
+                    <a href="/products.html" class="btn btn--hover--primary">Products</a>
+                    <a href="/services.html" class="btn btn--hover--primary">Services</a>
+                    <a href="/portfolio.html" class="btn btn--hover--primary">Contact Us</a>
+                    <a href="/our_products.html" class="btn btn--hover--primary">Request Demo</a>
+                    <a href="/">
+                        <img class="mx-3" src="/assets/logo.PNG" alt="" width="120px">
+                    </a>
+                </div>            
+            </div>    
+        </div>
+    </nav>
+    <div class="w-100 d-none d-md-block" style="height: 85px;"></div>
+    <!-- NAVIGATION -->
+
+    <!-- HERO -->
+    <section aria-label="hero" class="my-0 bg-img" style="background-image: url(/assets/8d4f023d933386730dd65b6b1beb33fe.png);">
+        <div class="container">
+            <div class="row mx-0">
+                <div class="col-md-8 py-5 px-5 text-white" style="background-color: rgba(0, 0, 0, 0.50);">
+                    <h1 class="font-weight-bold pt-5 mt-5">SWEETSPOT THERAPEUTICS PLATFORM</h1>
+                    <h4 class="line-height-200 pr-5 mb-5 pb-5 font-weight-light">A VALUE-BASED REMOTE DIABETES MONITORING PLATFORM</h4>  
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- HERO -->
+
+    <div class="container-fluid bg-info-2 mt-5 pt-5">
+        <div class="container py-4">
+            <div class="row mx-0 text-white">
+                <div class="col-12 text-left">
+                    <h2 class="font-weight-bold">
+                        The virtual diabetes care model
+                    </h2>    
+                    <h5 class="font-weight-bold">Patient-centered approach</h5>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row mx-0">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <img src="/assets/Capture-removebg-preview.png" class="w-100" alt="">
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="container-fluid bg-info mt-5 pt-5">
+        <div class="container">
+            <div class="row mx-0 text-white">
+                <h2 class="text-center font-weight-bold col-12 pb-5 pt-4">
+                    Tour The Platform
+                </h2>
+                <br><br>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4 align-self-center line-height-200">
+                    <p>Our platform is cloud based and HIPAA secure. We go beyond data aggregation and management. Whether it is Glooko or Tidepool, use any data management platform, our software streamlines the process of implementation, adoption, and adherence to diabetes tech medical devices. Our software transforms the office dynamics and opens doors to new business models.</p>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center justify-content-center circle-container font-weight-bold" style="height: 400px;">
+                    <a href="#" class="circle center-circle p-4"><span>SweetSpot Therapeutics</span></a>
+                    <a href="#" id="circle1" class="circle circle-sm p-1"><span>All forms digitized</span></a>
+                    <a href="#" id="circle2" class="circle circle-md p-2"><span>Partners</span></a>
+                    <a href="#" id="circle3" class="circle circle-md p-2" ><span>Remote Monitoring Platform</span></a>
+                    <a href="#" id="circle4" class="circle circle-sm p-1" ><span>Virtual visits</span></a>
+                    <a href="#" id="circle5" class="circle circle-lg p-2" ><span>Communication Platform</span></a>
+                    <a href="#" id="circle6" class="circle circle-md p-2" ><span>Device Platform</span></a>
+                    <a href="#" id="circle7" class="circle circle-md p-2" ><span>Resource Library</span></a>
+                    <a href="#" id="circle8" class="circle circle-lg p-2" ><span>My Patients</span></a>
+                    <a href="#" id="circle9" class="circle circle-lg p-2" ><span>Billing Plateform</span></a>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>    
+    </div>
+
+
+    <section class="container text-center mt-5 mb-5 pt-5 pb-5">
+        <a href="/" class="btn btn--primary px-5 py-2 font-weight-bold rounded-pill">SEE SERVICES</a>
+    </section>
+
+
+
+    <footer class="container-fluid py-5 bg-white">
+        <div class="container">
+            <div class="row mx-0 justify-content-between align-items-center">
+                <div arial-label="left">
+                    <h4>SweetSpot Therapeutics <sup>TM</sup></h4>
+                </div>
+                <div arial-label="right">
+                    <a href="/" class="btn btn--hover--primary font-weight-bold">Signup</a>
+                    <a href="/aboutus.html" class="btn btn--hover--primary font-weight-bold">Our Story</a>
+                    <a href="/portfolio.html" class="btn btn--hover--primary font-weight-bold">Leadership Team</a>
+                    <a href="/our_products.html" class="btn btn--hover--primary font-weight-bold">Contact Us</a>
+                    <a href="/our_products.html" class="btn btn--hover--primary font-weight-bold">Request Demo</a>
+                </div>            
+                <div class="col-md-12 px-0 mt-5 pt-4">
+                    <p>2020 SweetSpot Therapeutics, <a href="" class="text-dark"><u>Terms of Use</u></a> and <a href="" class="text-dark"><u>Privacy Policy</u></a></p>
+                </div>
+            </div>    
+    
+        </div>
+    </footer>
+
+
+</body>
+</html>
