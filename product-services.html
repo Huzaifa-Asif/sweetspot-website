@@ -102,7 +102,7 @@
     <!-- MOBILE VIEW CODE -->
     <section class="d-block d-lg-none">
 
-        <div id="mySidenav" class="sidenav bg-primary" style="z-index: 5000;">
+        <div id="mySidenav" class="sidenav bg-info" style="z-index: 5000;">
             <a href="javascript:void(0)" class="closebtn text-white" onclick="closeNav()">&times;</a>
             <div class="accordion mt-4" id="accordionExample" style="box-shadow: none">
                 <div class="card bg-transparent border-0" style="box-shadow: none;">
@@ -117,26 +117,26 @@
                 <div class="card bg-transparent border-0" style="box-shadow: none;">
                     <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
                       <h6 class="mb-0">
-                        <a href="/about-us.html" class="btn text-left pl-4 w-100" aria-expanded="true">
-                            <span class="text-sm text-white">About Us</span>
-                        </a>
-                      </h6>
-                    </div>
-                </div>
-                <div class="card bg-transparent border-0" style="box-shadow: none;">
-                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
-                      <h6 class="mb-0">
                         <a href="/company.html" class="btn text-left pl-4 w-100" aria-expanded="true">
-                            <span class="text-sm text-white">Our Company</span>
+                            <span class="text-sm text-white">Company</span>
                         </a>
                       </h6>
                     </div>
-                </div>                    
+                </div>               
                 <div class="card bg-transparent border-0" style="box-shadow: none;">
                     <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
                       <h6 class="mb-0">
-                        <a href="/product-services.html" class="btn text-left pl-4 w-100" aria-expanded="true">
-                            <span class="text-sm text-white">Products / Services</span>
+                        <a href="/portfolio.html" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">How it works</span>
+                        </a>
+                      </h6>
+                    </div>
+                </div>                  
+                <div class="card bg-transparent border-0" style="box-shadow: none;">
+                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
+                      <h6 class="mb-0">
+                        <a href="/products.html" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">Products</span>
                         </a>
                       </h6>
                     </div>
@@ -144,18 +144,36 @@
                 <div class="card bg-transparent border-0" style="box-shadow: none;">
                     <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
                       <h6 class="mb-0">
-                        <a href="https://sweet-spot-web.herokuapp.com/" class="btn text-left pl-4 w-100" aria-expanded="true">
-                            <span class="text-sm text-white">Login/Sign</span>
+                        <a href="/services.html" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">Services</span>
                         </a>
                       </h6>
                     </div>
-                </div>                  
+                </div>                
+                <div class="card bg-transparent border-0" style="box-shadow: none;">
+                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
+                      <h6 class="mb-0">
+                        <a href="/contactus.html" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">Contact us</span>
+                        </a>
+                      </h6>
+                    </div>
+                </div>              
+                <div class="card bg-transparent border-0" style="box-shadow: none;">
+                    <div class="card-header border-0 px-0 py-0 bg-transparent" id="headingSeven" >
+                      <h6 class="mb-0">
+                        <a href="/contactus.html" class="btn text-left pl-4 w-100" aria-expanded="true">
+                            <span class="text-sm text-white">Request Demo</span>
+                        </a>
+                      </h6>
+                    </div>
+                </div>  
             </div>              
         </div>     
                
         <header class="d-flex justify-content-between between py-2 px-2 bg-white align-items-center position-relative">
             <a href="javascript:void(0)" onclick="openNav()" class="btn mdi mdi-menu mdi-24px text-primary"></a>
-            <a href="/"><img src="/assets/header_logo.svg" width="120px" alt=""></a>
+            <a href="/"><img src="/assets/logo.png" width="120px" alt=""></a>
             <div>
                 <a href="#" onclick="showSmSearchField()" class="mdi mdi-magnify mdi-24px mr-2 text-primary"></a>
                 <!-- <a href="#" class="mdi mdi-download mx-2 text-white"></a> -->
@@ -248,7 +266,10 @@
                 <div class="col-lg-4 align-self-center line-height-200">
                     <p>Our platform is cloud based and HIPAA secure. We go beyond data aggregation and management. Whether it is Glooko or Tidepool, use any data management platform, our software streamlines the process of implementation, adoption, and adherence to diabetes tech medical devices. Our software transforms the office dynamics and opens doors to new business models.</p>
                 </div>
-                <div class="col-lg-6 d-flex align-items-center justify-content-center circle-container font-weight-bold" style="height: 400px;">
+                <div class="col-lg-6 d-block d-md-none pb-4">
+                    <img src="/assets/products.PNG" class="w-100" alt="">
+                </div>
+                <div class="col-lg-6 d-none d-md-flex align-items-center justify-content-center circle-container font-weight-bold" style="height: 400px;">
                     <a href="#" class="circle center-circle p-4"><span>SweetSpot Therapeutics</span></a>
                     <a href="#" id="circle1" class="circle circle-sm p-1"><span>All forms digitized</span></a>
                     <a href="#" id="circle2" class="circle circle-md p-2"><span>Partners</span></a>
@@ -278,14 +299,14 @@
                 <div arial-label="left">
                     <h4>SweetSpot Therapeutics <sup>TM</sup></h4>
                 </div>
-                <div arial-label="right">
+                <div arial-label="right" class="text-md-left text-center">
                     <a href="/" class="btn btn--hover--primary font-weight-bold">Home</a>
                     <a href="/about-us.html" class="btn btn--hover--primary font-weight-bold">About us</a>
                     <a href="/company.html" class="btn btn--hover--primary font-weight-bold">Our Company</a>
                     <a href="/product-services.html" class="btn btn--hover--primary font-weight-bold">Product / Services</a>
                     <a href="https://sweet-spot-web.herokuapp.com/" class="btn btn--hover--primary font-weight-bold">Login / Signup</a>
                 </div>            
-                <div class="col-md-12 px-0 mt-5 pt-4">
+                <div class="col-md-12 px-0 mt-5 pt-4 text-md-left text-center">
                     <p>2021 SweetSpot Therapeutics 
                         <!-- <a href="" class="text-dark"><u>Terms of Use</u></a> and <a href="" class="text-dark"><u>Privacy Policy</u></a> -->
                     </p>
@@ -294,6 +315,7 @@
     
         </div>
     </footer>
+    <script src="/script.js"></script>
 
 
 </body>
