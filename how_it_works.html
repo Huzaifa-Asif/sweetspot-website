@@ -15,63 +15,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <link rel="stylesheet" href="./style.css?v1.2">
         <link rel="stylesheet" href="./color.css">        
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <title>SweetSpot</title>
+        <title>Company Page</title>
     </head>  
-    <style>
-        .circle {
-            border: 2px solid #A0A0A0; 
-            background-color: blueviolet;           
-            border-radius: 100%;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            transition: 0.3s;
-            color: white;
-            text-decoration: none;
-        }
-        .circle {
-            text-decoration: none !important;
-            color: white !important;
-        }        
-        .center-circle {
-            width: 220px;
-            height: 220px;
-            font-size: 1.75rem;
-            z-index: 10000;
-        }
-        .circle-sm {
-            width: 90px;
-            height: 90px;
-            font-size: 0.90rem !important;
-        }
-        #circle1 { left: 372.725px; top: 144.962px; background-color: #5B819D; }
-        #circle2 { left: 473.25px; top: -26.5375px; background-color: #DFF9FB; color: black !important; }
-        #circle3 { left: 576.213px; top: 147.462px; background-color: #69A7DD; }
-        #arrow1 { left: -12px; top: 51px; }
-        #arrow2 { left: 95px; top: 46px; }
-        #arrow3 { left: -74px; top: 199px; }
-      
-    </style>
-
-    <script>
-        $( function() {
-            $( "#circle1" ).draggable();
-            $( "#circle2" ).draggable();
-            $( "#circle3" ).draggable();
-            $( "#arrow1" ).draggable();
-            $( "#arrow2" ).draggable();
-            $( "#arrow3" ).draggable();
-        } );        
-    </script>
-
 
 <body>
 
@@ -186,111 +133,197 @@
     <div class="w-100 d-none d-md-block" style="height: 85px;"></div>
     <!-- NAVIGATION -->
 
-    <section class="container text-center mt-5 mb-3 pt-5 pb-3">
-        <h1 class="font-weight-bold text-dark">The Team</h1>
-        <h5 class="text-muted font-weight-normal">SweetSpot Therapeutics was conceptualized by a group of engineers, diabetologists, and certified diabetes <br> educators with a primary focus on alleviating the burden of diabetes.</h5>
+    <!-- HERO -->
+    <section aria-label="hero" class="my-0 bg-img parallax" style="background-image: url(/assets/bfa01d6e262522c5e364cb1fd8147203.png);">
+        <div class="container">
+            <div class="row mx-0">
+                <div class="col-md-10 py-4 text-white position-relative">
+                    <h1 class="font-weight-bold text-black display-4">YOUR <br> PERSONALIZED JOURNEY WITH DIABETES UNTIL <br> THE CURE</h1>
+                    <div class="text-right">
+                        <h4 class="font-weight-bold">“The patient who knows the most lives longest.”</h4>
+                        <h5 class="mb-5 pb-5 font-weight-bold"> -Elliot P. Joslin, MD</h5>            
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+        </div>
     </section>
+    <!-- HERO -->
 
 
-    <section class="container my-5 py-5">
-        <div aria-label="horizontal-slider" class="position-relative">
-            <div class="row align-items-center justify-content-md-center justify-content-start">
-                <div class="col-md-4 col-12 py-0 px-md-2 px-2 flex-shrink-0">
-                    <div class="text-center p-md-3 p-2">
-                        <img src="/assets/4113ac3ed5bcd5a44a08a9c873c1ea94.png" width="100%" class="my-3 hover-zoom transition" alt="">
-                        <h2 class="font-weight-bold">Norman Fishman MD</h2>
-                        <h4 class="text-muted font-weight-normal my-2">CMO</h4>
+    <div class="container my-4">
+        <div class="row mx-0 align-items-center">
+            <div class="col-lg-12 p-md-4 p-2 py-4 text-center my-md-5">
+                <h4 class="font-weight-bold text-black">WHETHER YOU HAVE TYPE 1 OR TYPE 2 DIABETES...</h4>
+            </div>
+        </div>
+    </div>
+
+    <section class="container-fluid my-5 bg-info-3">
+        <div class="container">
+            <div class="row mx-0 align-items-center">
+                <div class="col-lg-12 p-md-4 p-2 text-center order-0">
+                    <div class="mb-4 text-black">
+                        <img src="/assets/Image 53.png" width="40px" class="mb-2" alt="">
+                        <h1 class="font-weight-bold">SUGAR</h1>
+                        <h4 class="font-weight-bold text-black">IS YOUR NEW VITAL SIGN</h4>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 py-0 px-md-2 px-2 flex-shrink-0 translatey-md--110px">
-                    <div class="text-center p-md-3 p-2">
-                        <img src="/assets/9c336b196a505c9e61c0e6275d2b735b.png" width="100%" class="my-3 hover-zoom transition" alt="">
-                        <h2 class="font-weight-bold">Ralph Oiknine MD</h2>
-                        <h4 class="text-muted font-weight-normal my-2">Founder CEO</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12 py-0 px-md-2 px-2 flex-shrink-0">
-                    <div class="text-center p-md-3 p-2">
-                        <img src="/assets/264ee99fdf5a444f4f04915ae5fa3c87.png" width="100%" class="my-3 hover-zoom transition" alt="">
-                        <h2 class="font-weight-bold">Chris Kadel</h2>
-                        <h4 class="text-muted font-weight-normal my-2">CTO</h4>
-                    </div>
-                </div>
-            </div>   
+            </div>
         </div>
     </section>
 
-    <section class="container text-center mt-5 mb-3 pt-5 pb-3">
-        <h1 class="font-weight-bold text-dark">Board of Advisors</h1>
-        <h5 class="text-muted font-weight-normal">We tap into resources from leaders in our prestigious academic institutions, including Washington University and Saint Louis University along with well established endocrinology practices in the Saint Louis area and all over Missouri to introduce and develop their tele-diabetes model.</h5>
+    <section class="container-fluid my-5">
+        <div class="container">
+            <div class="row mx-0 align-items-center">
+                <div class="col-lg-12 p-md-4 p-2 text-center order-0">
+                    <div class="mb-4 text-black">
+                        <h1 class="font-weight-bold">THE PROCESS...</h1>
+                        <h4 class="font-weight-bold text-black">10 SIMPLE STEPS</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
 
 
-    <section class="container mb-5 pb-5">
-        <div aria-label="horizontal-slider" class="position-relative">
-            <div class="row flex-nowrap flex-md-wrap align-items-center justify-content-md-center justify-content-start" style="overflow: auto;">
-                <div class="col-md-3 col-8 py-0 px-md-5 px-2 flex-shrink-0">
-                    <div class="text-center p-md-3 p-2">
-                        <img src="/assets/9376b663fd1366e7a3c53f9ebedbbe17.png" width="100%" class="my-3 hover-zoom transition" alt="">
-                        <h6 class="font-weight-bold">Gary Tobin MD </h6>
-                        <p class="text-muted font-weight-normal my-2">Washington University</p>
-                    </div>
+    <div id="carouselExampleIndicators" class="carousel slide bg-info-3" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <section class="w-100 h-100 d-flex align-items-center text-center">
+                <div class="w-100 text-center">
+                    <h1 class="font-weight-bold text-black">Sign Up on SweetSpot Therapeutics</h1>
+                    <div class="w-100 py-4">
+                        <img src="/assets/7d360d160978198fca28cd731bfbea8e.png" width="260px" alt="">
+                    </div>    
                 </div>
-                <div class="col-md-3 col-8 py-0 px-md-5 px-2 flex-shrink-0">
-                    <div class="text-center p-md-3 p-2">
-                        <img src="/assets/7ba7b3e3bd31759c1f32d9b32176e686.png" width="100%" class="my-3 hover-zoom transition" alt="">
-                        <h6 class="font-weight-bold">Janet McGill MD </h6>
-                        <p class="text-muted font-weight-normal my-2">Washington University</p>
-                    </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="w-100 h-100 d-flex align-items-center text-center">
+                <div class="w-100 text-center">
+                    <h1 class="font-weight-bold text-black">Tour the platform using our Video Tutorials</h1>
+                    <div class="w-100 py-4">
+                        <img src="/assets/image2.PNG" width="460px" alt="">
+                    </div>    
                 </div>
-                <div class="col-md-3 col-8 py-0 px-md-5 px-2 flex-shrink-0">
-                    <div class="text-center p-md-3 p-2">
-                        <img src="/assets/4b34aa702d348064115bba4786cb8bbb.png" width="100%" class="my-3 hover-zoom transition" alt="">
-                        <h6 class="font-weight-bold">Stewart Albert MD </h6>
-                        <p class="text-muted font-weight-normal my-2">Saint Louis University</p>
-                    </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="w-100 h-100 d-flex align-items-center text-center">
+                <div class="w-100 text-center">
+                    <h1 class="font-weight-bold text-black">Schedule your first virtual visit on our scheduling platform</h1>
+                    <div class="w-100 py-4">
+                        <img src="/assets/image 2-3.png" width="260px" alt="">
+                    </div>    
                 </div>
-                <div class="col-md-3 col-8 py-0 px-md-5 px-2 flex-shrink-0">
-                    <div class="text-center p-md-3 p-2">
-                        <img src="/assets/9a6f75f758df810f322bfc4797e1fed7.png" width="100%" class="my-3 hover-zoom transition" alt="">
-                        <h6 class="font-weight-bold">Alan Silverberg MD </h6>
-                        <p class="text-muted font-weight-normal my-2">Saint Louis University</p>
-                    </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="w-100 h-100 d-flex align-items-center text-center">
+                <div class="w-100 text-center">
+                    <h1 class="font-weight-bold text-black">Get connected with a Diabetes Expert</h1>
+                    <div class="w-100 py-4">
+                        <img src="/assets/image 3.png" width="260px" alt="">
+                    </div>    
                 </div>
-                <div class="col-md-3 col-8 py-0 px-md-5 px-2 flex-shrink-0">
-                    <div class="text-center p-md-3 p-2">
-                        <img src="/assets/2c6c2792dd08102f66fb82d0dfa04dde.png" width="100%" class="my-3 hover-zoom transition" alt="">
-                        <h6 class="font-weight-bold">Gaye Knutsen CDE </h6>
-                        <p class="text-muted font-weight-normal my-2">Advanced Nurse Practitioner Washington University</p>
-                    </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="w-100 h-100 d-flex align-items-center text-center">
+                <div class="w-100 text-center">
+                    <h1 class="font-weight-bold text-black">Attend your first Virtual Visit</h1>
+                    <div class="w-100 py-4">
+                        <img src="/assets/image 2.png" width="260px" alt="">
+                    </div>    
                 </div>
-                <div class="col-md-3 col-8 py-0 px-md-5 px-2 flex-shrink-0">
-                    <div class="text-center p-md-3 p-2">
-                        <img src="/assets/cb86f33479ece0cff8883d8a89a2822c.png" width="100%" class="my-3 hover-zoom transition" alt="">
-                        <h6 class="font-weight-bold">Maria Wieir </h6>
-                        <p class="text-muted font-weight-normal my-2">Advanced Nurse Practitioner Diabetes Specialist</p>
-                    </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="w-100 h-100 d-flex align-items-center text-center">
+                <div class="w-100 text-center">
+                    <h1 class="font-weight-bold text-black">Get the tools you need</h1>
+                    <div class="w-100 py-4">
+                        <img src="/assets/image 2-4.png" width="260px" alt="">
+                    </div>    
                 </div>
-                <div class="col-md-3 col-8 py-0 px-md-5 px-2 flex-shrink-0">
-                    <div class="text-center p-md-3 p-2">
-                        <img src="/assets/671fea6f8d2a9feb1f274dfdce1b51f4.png" width="100%" class="my-3 hover-zoom transition" alt="">
-                        <h6 class="font-weight-bold">Amber Wamhoff </h6>
-                        <p class="text-muted font-weight-normal my-2">Registered Dietitian CDE</p>
-                    </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="w-100 h-100 d-flex align-items-center text-center">
+                <div class="w-100 text-center">
+                    <h1 class="font-weight-bold text-black">Count on us to coordinate your care</h1>
+                    <div class="w-100 py-4">
+                        <img src="/assets/image 2-1.png" width="260px" alt="">
+                    </div>    
                 </div>
-            </div>   
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="w-100 h-100 d-flex align-items-center text-center">
+                <div class="w-100 text-center">
+                    <h1 class="font-weight-bold text-black">The Team will optimize your “time in range”</h1>
+                    <div class="w-100 py-4">
+                        <img src="/assets/image 2-8.png" width="260px" alt="">
+                    </div>    
+                </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="w-100 h-100 d-flex align-items-center text-center">
+                <div class="w-100 text-center">
+                    <h1 class="font-weight-bold text-black">Receive feedback regarding your blood sugar</h1>
+                    <div class="w-100 py-4">
+                        <img src="/assets/image 2-5.png" width="260px" alt="">
+                    </div>    
+                </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="w-100 h-100 d-flex align-items-center text-center">
+                <div class="w-100 text-center">
+                    <h1 class="font-weight-bold text-black">Schedule virtual visits quarterly or whenever necessary</h1>
+                    <div class="w-100 py-4">
+                        <img src="/assets/image 2-6.png" width="260px" alt="">
+                    </div>    
+                </div>
+            </section>
+          </div>
         </div>
-    </section>  
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="mdi mdi-36px mdi-arrow-left text-primary" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="mdi mdi-36px mdi-arrow-right text-primary" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+        <!-- Slider -->
+         <!-- End of Slider -->
+
+
+
 
     <section class="container text-center mt-3 mb-5 pt-3 pb-5">
-        <a href="https://sweet-spot-web.herokuapp.com/" class="btn bg-info-2 border-radius-0 text-white px-4 py-2 font-weight-bold">TRY IT NOW</a>
-        <p class="text-muted py-3 font-weight-bold">Ready to start? Click on the button to create or access your account</p>
+        <a href="/about-us.html" class="btn btn--primary px-4 py-2 font-weight-bold rounded-pill">LEARN MORE ABOUT SWEETSPOT</a>
     </section>
-
-
-    <br>
 
     <footer class="container-fluid py-5 bg-white">
         <div class="container">
@@ -298,7 +331,7 @@
                 <div arial-label="left">
                     <h4>SweetSpot Therapeutics <sup>TM</sup></h4>
                 </div>
-                <div arial-label="right" class="text-center text-md-left">
+                <div arial-label="right" class="text-md-left text-center">
                     <a href="/" class="btn btn--hover--primary font-weight-bold">Home</a>
                     <a href="/about-us.html" class="btn btn--hover--primary font-weight-bold">About us</a>
                     <a href="/company.html" class="btn btn--hover--primary font-weight-bold">Our Company</a>
@@ -306,7 +339,7 @@
                     <a href="/how_it_works.html" class="btn btn--hover--primary font-weight-bold">I am Patient</a>
                     <a href="https://sweet-spot-web.herokuapp.com/" class="btn btn--hover--primary font-weight-bold">Login / Signup</a>
                 </div>            
-                <div class="col-md-12 px-0 mt-5 pt-4 text-center text-md-left">
+                <div class="col-md-12 px-0 mt-5 pt-4 text-md-left text-center">
                     <p>2021 SweetSpot Therapeutics, 
                         <!-- <a href="" class="text-dark"><u>Terms of Use</u></a> and <a href="" class="text-dark"><u>Privacy Policy</u></a> -->
                     </p>
@@ -316,7 +349,9 @@
         </div>
     </footer>
     <script src="/script.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
